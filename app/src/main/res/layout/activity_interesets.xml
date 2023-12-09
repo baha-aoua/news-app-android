@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="100px"
+            android:layout_marginStart="200px"
+            android:layout_marginTop="200px"
+            android:layout_marginEnd="200px"
+            android:layout_marginBottom="20px"
+            android:fontFamily="serif"
+            android:text="Pick your Interests ⬇"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            android:textColor="#DA3030"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="118dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="IT"
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="#FBFBFB" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="Cryptocurrency"
+
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="#FBFBFB"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="136dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="Politics"
+
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="#FBFBFB"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="Cinema"
+
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="#FBFBFB"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="128dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="Health"
+
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="#FBFBFB"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="Games"
+
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="#FBFBFB"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="Astronomy"
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="#FBFBFB"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="Art"
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_marginBottom="80dp">
+
+            <Button
+                android:layout_width="122dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="Sports"
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="@color/white" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="50px"
+                android:text="ALL"
+
+                android:backgroundTint="@drawable/button_text_color"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_margin="50px"
+            android:layout_marginStart="50px"
+            android:layout_marginTop="50px"
+            android:layout_marginEnd="50px"
+            android:layout_marginBottom="50px"
+            android:backgroundTint="#DA3030"
+            android:text="Next"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>
